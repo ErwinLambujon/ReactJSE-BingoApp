@@ -1,0 +1,50 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+}
+
+.card-container {
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.bingo-card {
+  border-collapse: collapse;
+}
+
+.bingo-card th,
+.bingo-card td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
